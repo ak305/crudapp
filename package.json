@@ -1,0 +1,29 @@
+{
+  "name": "crud",
+  "version": "1.0.0",
+  "description": "first crud app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ak305/crudapp.git"
+  },
+  "author": "Albert Kerr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ak305/crudapp/issues"
+  },
+  "homepage": "https://github.com/ak305/crudapp#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "ejs": "^2.5.2",
+    "express": "^4.14.0",
+    "mongodb": "^2.2.11"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
